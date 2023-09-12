@@ -13,7 +13,6 @@ body {
     background-size: cover;
     background-position: center;
     
-
 }
 
 section *{
@@ -129,11 +128,6 @@ section {
 
 @media (max-width: 768px) {
 
-    body{
-        align-items: center;
-        overflow-x: hidden;
-    }
-
     header {
         width: 100%;
         
@@ -153,6 +147,7 @@ section {
         margin: 0 auto;
         width: 100%;
         flex-direction: column;
+        size: cover;
     }
 
     .paragrafo {
