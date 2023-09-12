@@ -163,11 +163,12 @@ section {
 
     #galeria .imagens{
         flex-direction: column;
-        max-width: 300px;
+        width: 200px;
     }
 
     #parte-direita {
         margin-left: 80px;
-        max-width: 300px;
+        width: 200px;
+        align-items: center;
     }
 }
