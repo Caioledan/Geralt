@@ -33,7 +33,7 @@ header{
 header img{
     width: 180px;
     height: 80px;
-    margin-left: 2%;
+    margin-left: 70px;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -41,7 +41,7 @@ header img{
 header h1{
     margin-top: auto;
     margin-bottom: auto;
-    margin-right: 2%;
+    margin-right: 70px;
     font-family: "Witcher1";
     font-size: 32px;
     color: rgb(219, 228, 229);
@@ -53,18 +53,19 @@ section {
     margin: auto;
     background-color: rgb(217, 217, 217, 0.7);
     background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 40px;
 }
 
 .paragrafo{
-    /* border: 1px solid orange; */
     width: 500px;
     margin-left: 24px;
     margin-top: 20px;
 }
 
-.paragrafo h1{
-    font-size: 26px;
-}
 
 .paragrafo p{
     font-size: 12px;
@@ -90,10 +91,38 @@ section {
 #galeria .imagens{
     display: flex;
     flex-direction: row;
-    /* justify-content: center;
-    align-items: center; */
+
     
 }
 #galeria .imagens img{
     border: 2px solid black;
+}
+
+#parte-direita {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(134, 178, 202, 0.80);
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+#parte-direita img{
+    border: 2px solid black;
+}
+
+.info {
+    border: 2px black solid;
+    font-weight: bold;
+    font-size: 16px;
+ 
+}
+
+.info ul{
+    padding: 0 20px;
+}
+
+.info h3{
+    text-align: center;
 }
