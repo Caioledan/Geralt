@@ -10,22 +10,22 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
-    
+
 }
 
 header{
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
-    width: 50%;    
+    border: 3px solid black;
+    width: 1000px;  
     margin: 0 auto;
     background-color: rgb(84, 84, 84, 0.75);
 
 }
 
 header img{
-    width: 25%;
-    height: 10%;
+    width: 180px;
+    height: 80px;
     margin-left: 2%;
     margin-top: auto;
     margin-bottom: auto;
@@ -38,4 +38,17 @@ header h1{
     font-family: "Witcher1";
     font-size: 32px;
     color: rgb(219, 228, 229);
+}
+
+section {
+    border: 3px red solid;
+    width: 1000px;
+    height: 630px;
+    margin: auto;
+
+    background-color: rgb(217, 217, 217, 0.7);
+}
+
+.paragrafo{
+    
 }
