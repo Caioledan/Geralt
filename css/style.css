@@ -130,7 +130,8 @@ section {
 @media (max-width: 768px) {
 
     body{
-        width: 100%;
+        align-items: center;
+        overflow-x: hidden;
     }
 
     header {
@@ -149,6 +150,7 @@ section {
     }
 
     section {
+        margin: 0 auto;
         width: 100%;
         flex-direction: column;
     }
