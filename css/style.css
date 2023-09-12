@@ -126,3 +126,43 @@ section {
 .info h3{
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+    }
+
+    header img {
+        width: 150px;
+        margin-left: 20px;
+    }
+
+    header h1 {
+        font-size: 24px;
+        margin-right: 20px;
+    }
+
+    section {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .paragrafo {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #galeria {
+        margin-left: 80px;
+    }
+
+    #galeria .imagens{
+        flex-direction: column;
+        max-width: 300px;
+    }
+
+    #parte-direita {
+        margin-left: 80px;
+        max-width: 300px;
+    }
+}
