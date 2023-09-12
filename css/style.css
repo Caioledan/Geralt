@@ -130,7 +130,7 @@ section {
 @media (max-width: 768px) {
 
     body{
-        width: 200px;
+        width: 100%;
     }
 
     header {
